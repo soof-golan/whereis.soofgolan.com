@@ -13,7 +13,7 @@ const schedule: Schedule = [
     },
     {
         location: "🔥 Midburn (Israel)",
-        date: moment('2024-06-09')
+        date: moment('2024-06-05')
     },
     {
         location: "✈️ Israel -> Spain",
@@ -36,10 +36,6 @@ const schedule: Schedule = [
         date: moment('2024-07-08')
     },
     {
-        location: "👨‍💻 Berlin",
-        date: moment('2024-07-15')
-    },
-    {
         location: "✈️ Germany -> Sweden",
         date: moment('2024-07-21')
     },
@@ -54,6 +50,10 @@ const schedule: Schedule = [
     {
         location: "👨‍💻 Vienna",
         date: moment('2024-07-31')
+    },
+    {
+        location: "👨‍💻 Berlin",
+        date: moment('2024-08-12')
     },
     {
         location: "👨‍💻 Israel",
