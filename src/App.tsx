@@ -92,6 +92,30 @@ function App() {
                         ))
                 }
             </div>
+            <hr/>
+            <footer style={{
+                display: "flex",
+                flexDirection: "column",
+                justifyItems: "start",
+
+            }}>
+                <div style={{
+                    paddingBlockStart: "1em",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "start",
+                }}>
+                    <a href="https://github.com/soof-golan/whereis.soofgolan.com">Source Code</a>
+                </div>
+                <div style={{
+                    paddingBlockStart: "1em",
+                    display: "flex",
+                    flexDirection: "row",
+                    justifyContent: "start",
+                }}>
+                    Copyright (c) 2024 Soof Golan
+                </div>
+            </footer>
         </>
     )
 }
