@@ -13,7 +13,7 @@ const schedule: Schedule = [
     },
     {
         location: "🔥 Midburn (Israel)",
-        date: moment('2024-06-05')
+        date: moment('2024-Jun-05')
     },
     {
         location: "🛫 Israel -> Spain",
@@ -63,7 +63,7 @@ const schedule: Schedule = [
 
 function App() {
     const now = moment();
-    const currentEvent = schedule.find(event => event.date.isBefore(now));
+    const currentEvent = schedule.map(e=>e).reverse().find(event => event.date.isBefore(now));
     const nextEvent = schedule.find(event => event.date.isAfter(now));
     return (
         <>
