@@ -1,5 +1,6 @@
 import './App.css'
 import moment from 'moment'
+import {useState} from "react";
 
 type Schedule = Array<{
     location: string,
@@ -17,11 +18,11 @@ const schedule: Schedule = [
     },
     {
         location: "🛫 Israel -> Spain",
-        date: moment('2024-06-11')
+        date: moment('2024-06-18')
     },
     {
         location: "👨‍💻 Valencia",
-        date: moment('2024-06-18')
+        date: moment('2024-06-19')
     },
     {
         location: "🔥 Nowhere (Spain)",
@@ -29,7 +30,7 @@ const schedule: Schedule = [
     },
     {
         location: "🛫 Spain -> Czech Republic",
-        date: moment('2024-07-08')
+        date: moment('2024-07-07')
     },
     {
         location: "👨‍💻 Prague",
@@ -57,22 +58,33 @@ const schedule: Schedule = [
     },
     {
         location: "👨‍💻 Israel",
-        date: moment('2024-08-12')
+        date: moment('2024-08-31')
     }
 ];
 
 function App() {
-    const now = moment();
-    const currentEvent = schedule.map(e=>e).reverse().find(event => event.date.isBefore(now));
-    const nextEvent = schedule.find(event => event.date.isAfter(now));
+    const [now, setNow] = useState(moment());
+    const currentEvent = schedule
+        .map(e => e)
+        .findLast(event => event.date.isSameOrBefore(now)
+        );
+
+    const nextEventIndex = schedule.findIndex((e) => e == currentEvent)
+    const nextEvent = schedule[nextEventIndex + 1]
     return (
         <>
+            <header>
+                <h1>Where is Soof?</h1>
+            </header>
+            <input type="date" value={now.format("YYYY-MM-DD")} onChange={(e) => {
+                setNow(moment(e.target.value));
+            }}/>
             <div style={{
                 display: "flex",
                 flexDirection: "column",
                 alignItems: "start",
             }}>
-                <h1>Current Location</h1>
+                <h1>Location</h1>
                 <h2>{currentEvent?.location}</h2>
                 <h1>Next Up</h1>
                 <h2>{nextEvent?.location}</h2>
