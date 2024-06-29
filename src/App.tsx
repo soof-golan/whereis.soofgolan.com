@@ -25,16 +25,24 @@ const schedule: Schedule = [
         date: moment('2024-06-19')
     },
     {
+        location: "🍹 Barcelona",
+        date: moment('2024-06-29')
+    },
+    {
         location: "🔥 Nowhere (Spain)",
         date: moment('2024-07-01')
     },
     {
-        location: "🛫 Spain -> Czech Republic",
+        location: "🍹 Barcelona",
         date: moment('2024-07-07')
     },
     {
-        location: "👨‍💻 Prague",
+        location: "🛫 Spain -> Czech Republic",
         date: moment('2024-07-08')
+    },
+    {
+        location: "👨‍💻 Prague",
+        date: moment('2024-07-09')
     },
     {
         location: "🛫 Czech Republic -> Sweden",
@@ -51,6 +59,10 @@ const schedule: Schedule = [
     {
         location: "👨‍💻 Vienna",
         date: moment('2024-07-31')
+    },
+    {
+        location: "🔥 Schönburn (Austria)",
+        date: moment('2024-07-22')
     },
     {
         location: "👨‍💻 Berlin",
