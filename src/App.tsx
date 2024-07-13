@@ -58,19 +58,35 @@ const schedule: Schedule = [
     },
     {
         location: "👨‍💻 Vienna",
-        date: moment('2024-07-31')
+        date: moment('2024-07-30')
     },
     {
         location: "🔥 Schönburn (Austria)",
-        date: moment('2024-07-22')
+        date: moment('2024-08-07')
     },
     {
-        location: "👨‍💻 Berlin",
+        location: "🍸 Vienna",
         date: moment('2024-08-12')
     },
     {
+        location: "🛫 Austria -> France",
+        date: moment('2024-08-13')
+    },
+    {
+        location: "🧗 Fontainebleau",
+        date: moment('2024-08-14')
+    },
+    {
+        location: "🛫 France -> Germany",
+        date: moment('2024-08-19')
+    },
+    {
+        location: "👨‍💻 Berlin",
+        date: moment('2024-08-14')
+    },
+    {
         location: "👨‍💻 Israel",
-        date: moment('2024-08-31')
+        date: moment('2024-09-15')
     }
 ];
 
