@@ -61,7 +61,7 @@ const schedule: Schedule = [
         date: moment('2024-07-30')
     },
     {
-        location: "🔥 Schönburn (Austria)",
+        location: "🔥 Schönnburn (Austria)",
         date: moment('2024-08-07')
     },
     {
@@ -82,7 +82,7 @@ const schedule: Schedule = [
     },
     {
         location: "👨‍💻 Berlin",
-        date: moment('2024-08-14')
+        date: moment('2024-08-20')
     },
     {
         location: "👨‍💻 Israel",
