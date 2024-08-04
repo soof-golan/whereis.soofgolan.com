@@ -61,7 +61,7 @@ const schedule: Schedule = [
         date: moment('2024-07-30')
     },
     {
-        location: "🔥 Schönnburn (Austria)",
+        location: "🔥 Schönburn (Austria)",
         date: moment('2024-08-07')
     },
     {
