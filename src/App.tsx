@@ -85,8 +85,16 @@ const schedule: Schedule = [
         date: moment('2024-08-20')
     },
     {
+        location: "🔥 FTE / Burnerczech",
+        date: moment('2024-08-30')
+    },
+    {
+        location: "👨‍💻 Prague",
+        date: moment('2024-09-02')
+    },
+    {
         location: "👨‍💻 Israel",
-        date: moment('2024-09-15')
+        date: moment('2024-09-16')
     }
 ];
 
