@@ -89,7 +89,7 @@ const schedule: Schedule = [
         date: moment('2024-08-30')
     },
     {
-        location: "👨‍💻 Prague",
+        location: "👨‍💻 Berlin",
         date: moment('2024-09-02')
     },
     {
