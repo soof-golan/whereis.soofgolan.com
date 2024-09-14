@@ -85,8 +85,12 @@ const schedule: Schedule = [
         date: moment('2024-08-20')
     },
     {
+        location: "👨‍💻 Chicago",
+        date: moment('2024-09-13')
+    },
+    {
         location: "👨‍💻 Israel",
-        date: moment('2024-09-16')
+        date: moment('2024-10-16')
     }
 ];
 
