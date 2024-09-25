@@ -90,7 +90,7 @@ const schedule: Schedule = [
     },
     {
         location: "🛫 Chicago -> London",
-        date: moment('2024-08-29')
+        date: moment('2024-09-29')
     },
     {
         location: "🇬🇧 London",
@@ -98,7 +98,7 @@ const schedule: Schedule = [
     },
     {
         location: "🛫 London -> ??? (Who knows...)",
-        date: moment('2024-08-29')
+        date: moment('2024-10-09')
     },
     {
         location: "🇨🇾 Larnaca? 🇮🇱 Tel Aviv?",
