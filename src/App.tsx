@@ -89,8 +89,28 @@ const schedule: Schedule = [
         date: moment('2024-09-13')
     },
     {
+        location: "🛫 Chicago -> London",
+        date: moment('2024-08-29')
+    },
+    {
+        location: "🇬🇧 London",
+        date: moment('2024-09-30')
+    },
+    {
+        location: "🛫 London -> ??? (Who knows...)",
+        date: moment('2024-08-29')
+    },
+    {
+        location: "🇨🇾 Larnaca? 🇮🇱 Tel Aviv?",
+        date: moment('2024-10-15')
+    },
+    {
+        location: "🛫 ??? (Who knows...) -> Israel",
+        date: moment('2024-10-24')
+    },
+    {
         location: "👨‍💻 Israel",
-        date: moment('2024-10-16')
+        date: moment('2024-10-25')
     }
 ];
 
