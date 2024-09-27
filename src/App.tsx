@@ -97,21 +97,17 @@ const schedule: Schedule = [
         date: moment('2024-09-30')
     },
     {
-        location: "🛫 London -> ??? (Who knows...)",
+        location: "🛫 London -> Tel Aviv",
         date: moment('2024-10-09')
     },
     {
-        location: "🇨🇾 Larnaca? 🇮🇱 Tel Aviv?",
-        date: moment('2024-10-15')
+        location: "🇮🇱 Givatayim",
+        date: moment('2024-10-10')
     },
     {
-        location: "🛫 ??? (Who knows...) -> Israel",
-        date: moment('2024-10-24')
+        location: "🇩🇪 Berlin???",
+        date: moment('2025-01-01')
     },
-    {
-        location: "👨‍💻 Israel",
-        date: moment('2024-10-25')
-    }
 ];
 
 function App() {
